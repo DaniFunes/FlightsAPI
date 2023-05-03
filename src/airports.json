@@ -1,0 +1,67 @@
+[
+      {
+        "_id": 1,
+        "siglas": "MAD",
+        "distancia_ciudad": 15.0,
+        "transportes": ["Taxi", "Metro", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [1, 5, 80, 15]
+      },
+      {
+        "_id": 2,
+        "siglas": "BCN",
+        "distancia_ciudad": 12.5,
+        "transportes": ["Taxi", "Metro", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [2, 7, 8, 50, 16]
+      },
+      {
+        "_id": 3,
+        "siglas": "LND",
+        "distancia_ciudad": 24.0,
+        "transportes": ["Taxi", "Tren", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas", "Spa"],
+        "vuelos_semana": [3, 19, 25]
+      },
+      {
+        "_id": 4,
+        "siglas": "NYK",
+        "distancia_ciudad": 30.0,
+        "transportes": ["Taxi", "Tren", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas", "Duty-free"],
+        "vuelos_semana": [4, 11, 29]
+      },
+      {
+        "_id": 5,
+        "siglas": "PAR",
+        "distancia_ciudad": 23.0,
+        "transportes": ["Taxi", "Tren", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [6, 31, 35]
+      },
+      {
+        "_id": 6,
+        "siglas": "ORY",
+        "distancia_ciudad": 17.5,
+        "transportes": ["Taxi", "Tren", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [41, 62, 63]
+      },
+      {
+        "_id": 7,
+        "siglas": "SVQ",
+        "distancia_ciudad": 27.0,
+        "transportes": ["Taxi", "Tren", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [9, 51]
+      },
+      {
+        "_id": 8,
+        "siglas": "SVQ",
+        "distancia_ciudad": 27.0,
+        "transportes": ["Taxi", "Metro", "Autobús"],
+        "servicios": ["Wifi gratis", "Restaurantes", "Tiendas"],
+        "vuelos_semana": [10, 67]
+      }
+
+    ]
