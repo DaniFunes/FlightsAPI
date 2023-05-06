@@ -10,8 +10,9 @@ POST {{host}}/api/flightscanner/customers/signup
 Content-Type: application/json
 
 {
-    "email": "javir@", 
-    "contraseña": "123456"
+    "email": "javir@aaaaaa", 
+    "contraseña": "123456",
+    "isAdmin": false
 }
 
 ###
@@ -20,6 +21,7 @@ POST {{host}}/api/flightscanner/customers/signin
 Content-Type: application/json
 
 {
-    "email": "javir@", 
-    "contraseña": "123456"
+   "email": "javir@aaaaaa", 
+    "contraseña": "123456",
+    "isAdmin": false
 }
