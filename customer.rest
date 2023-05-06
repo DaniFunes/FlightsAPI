@@ -1,0 +1,25 @@
+@hostname = http://localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+
+GET {{host}}/api/flightscanner/customers
+
+###
+
+POST {{host}}/api/flightscanner/customers/signup
+Content-Type: application/json
+
+{
+    "email": "javir@", 
+    "contraseña": "123456"
+}
+
+###
+
+POST {{host}}/api/flightscanner/customers/signin
+Content-Type: application/json
+
+{
+    "email": "javir@", 
+    "contraseña": "123456"
+}
