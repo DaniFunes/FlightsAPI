@@ -1,6 +1,5 @@
 [
   {
-    "_id": 1,
     "origen": "Madrid",
     "destino": "Barcelona",
     "fecha_salida": "2023-06-01",
@@ -12,7 +11,6 @@
     "aeropuerto_id": 1
   },
   {
-    "_id": 2,
     "origen": "Barcelona",
     "destino": "Madrid",
     "fecha_salida": "2023-06-02",
@@ -24,7 +22,6 @@
     "aeropuerto_id": 2
   },
   {
-    "_id": 3,
     "origen": "Londres",
     "destino": "Nueva York",
     "fecha_salida": "2023-06-03",
@@ -36,7 +33,6 @@
     "aeropuerto_id": 3
   },
   {
-    "_id": 4,
     "origen": "Nueva York",
     "destino": "Londres",
     "fecha_salida": "2023-06-04",
@@ -48,7 +44,6 @@
     "aeropuerto_id": 4
   },
   {
-    "_id": 5,
     "origen": "Madrid",
     "destino": "París",
     "fecha_salida": "2023-06-05",
@@ -59,7 +54,6 @@
     "aeropuerto_id": 1
   },
   {
-    "_id": 6,
     "origen": "París",
     "destino": "Madrid",
     "fecha_salida": "2023-06-06",
@@ -71,7 +65,6 @@
     "aeropuerto_id": 5
   },
   {
-    "_id": 7,
     "origen": "Barcelona",
     "destino": "Roma",
     "fecha_salida": "2023-06-07",
@@ -83,7 +76,6 @@
     "aeropuerto_id": 2
   },
   {
-    "_id": 8,
     "origen": "Barcelona",
     "destino": "Zurich",
     "fecha_salida": "2023-06-28",
@@ -95,7 +87,6 @@
     "aeropuerto_id": 2
   },
   {
-    "_id": 9,
     "origen": "Sevilla",
     "destino": "New York",
     "fecha_salida": "2023-06-25",
@@ -107,7 +98,6 @@
     "aeropuerto_id": 7
   },
   {
-    "_id": 10,
     "origen": "Málaga",
     "destino": "Miami",
     "fecha_salida": "2023-06-07",

@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Aeropuerto Internacional de la Ciudad de México",
+    "distancia_ciudad": 13,
+    "transportes": ["metro", "autobús", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi"]
+  },
+  {
+    "nombre": "Aeropuerto de Barcelona-El Prat",
+    "distancia_ciudad": 12,
+    "transportes": ["metro", "autobús", "tren", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Los Ángeles",
+    "distancia_ciudad": 30,
+    "transportes": ["autobús", "taxi", "shuttle", "coche de alquiler"],
+    "servicios": ["restaurantes", "tiendas", "wifi", "salas VIP"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Dubái",
+    "distancia_ciudad": 14,
+    "transportes": ["metro", "autobús", "taxi"],
+    "servicios": ["restaurantes", "tiendas de lujo", "wifi", "spa"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Heathrow",
+    "distancia_ciudad": 24,
+    "transportes": ["metro", "autobús", "tren", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi", "salas VIP"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Sydney",
+    "distancia_ciudad": 8,
+    "transportes": ["tren", "autobús", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi", "salas VIP"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Frankfurt",
+    "distancia_ciudad": 12,
+    "transportes": ["metro", "autobús", "tren", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi", "salas VIP"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Hong Kong",
+    "distancia_ciudad": 34,
+    "transportes": ["metro", "autobús", "taxi"],
+    "servicios": ["restaurantes", "tiendas de lujo", "wifi", "salas VIP"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Madrid-Barajas",
+    "distancia_ciudad": 12,
+    "transportes": ["metro", "autobús", "tren", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi"]
+  },
+  {
+    "nombre": "Aeropuerto Internacional de Pekín",
+    "distancia_ciudad": 28,
+    "transportes": ["metro", "autobús", "taxi"],
+    "servicios": ["restaurantes", "tiendas", "wifi"]
+  }
+]
