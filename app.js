@@ -23,9 +23,9 @@ app.use(apiPath, customers);
 app.use(apiPath, flights);
 app.use(apiPath, airports);
 
-app.get("/ping", (req, res) => {
-  res.json("pong");
-});
+// app.get("/ping", (req, res) => {
+//   res.json("pong");
+// });
 
 // const db = 'FlightScaner';
 // const url = 'mongodb://localhost:27017'
