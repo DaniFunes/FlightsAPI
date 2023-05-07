@@ -1,0 +1,42 @@
+@hostname = http://localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+
+
+// DEVUELVE LOS VUELOS QUE ESTÁN DISPONIBLES DESDE UN ORIGEN A UN DESTINO
+GET {{host}}/api/flightscanner/search/flights?aeropuerto_origen=Málaga&aeropuerto_destino=Barcelona
+
+###
+
+
+// AÑADE NUEVOS VUELOS 
+POST {{host}}/api/flightscanner/add/flights
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjgzNDYzMTYyfQ.0HYmTzFy9bnqL1eZjc_cHC3r9M9wEjkGQLWoR2vIH-8
+
+{
+    "aeropuerto_origen": "6457bf4140c82319319adee6",
+    "aeropuerto_destino": "645799ea79057eab76d58a50",
+    "fecha_salida" : "2040-07-07T00:00:00.000Z",
+    "hora_salida" : "18:00",
+    "plazas_totales": 200,
+    "plazas_disponibles": 100,
+    "precio": 200,
+    "compania_aerea": "Ryanair"
+}
+
+###
+//COMPRA UN VUELO
+PUT {{host}}/api/flightscanner/shop/flights/6457bf5340c82319319adee8/6457fc487d4bbf2cd18065d4
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW9Db21wcmF2dWVsbyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzQ4NzgxNn0.fXMsVpumYaIM4jA_dWcIJEI5qDUH0R9F5j0w570Rywc
+
+
+###
+//ACTUALIZA LA INFO DE UN VUELO
+PUT {{host}}/api/flightscanner/flights/6457bdd838792728a98ee664
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhbmllbGluIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjgzNDg1MTc0fQ.Iz49P4OqzMnIEx5VqcwaOgeSWrMB_g-57vvlwXGGq-U
+
+{
+    "fecha_salida": "28/07/2050"
+}

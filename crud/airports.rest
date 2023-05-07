@@ -8,13 +8,12 @@ GET {{host}}/api/flightscanner/airports
 
 ###
 
-
 POST {{host}}/api/flightscanner/airports
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphdmlyQCIsImlhdCI6MTY4MzM4OTM1N30.uGTL0qVrDZoKtjej76UcwIAuEjj8g_WLHltcj-OY7P8
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzQ3MjE3Nn0.Hj2gsIrhczza9SwPSnN9SmtqbWA6u1wynV1RzqibAyo
 
 {
-    "nombre": "Aeropuerto Internacional de Magallanes",
+    "nombre": "Málaga",
     "distancia_ciudad": 13,
     "transportes": ["Metro", "Autobús", "Taxi"],
     "servicios": ["restaurantes", "tiendas", "wifi"]

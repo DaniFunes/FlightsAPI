@@ -5,7 +5,7 @@ const isAuth = require("../middlewares/isAuth");
 const router = Router();
 const isAdmin = require("../middlewares/isAdmin");
 
-router.get("/airports", isAuth, async (req, res) => {
+router.get("/airports", isAuth, isAdmin , async (req, res) => {
   try {
     const aeropuertos = await Airport.find().exec();
     res.json(aeropuertos);
