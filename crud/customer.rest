@@ -1,0 +1,58 @@
+@hostname = http://localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+
+
+### VER VUELOS RESERVADOS DE UN USUARIO/CLIENTE
+GET {{host}}/api/flightscanner/customers/6457f83974c7e51e6f478ec3
+x-auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW90b29hb3MiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2ODM0ODY3Nzd9.b-2MxZnaNbrYe3mbN3CWqMVIf4geDRflms-_0t_WSfU
+
+
+### REGISTRA UN USUARIO
+POST {{host}}/api/flightscanner/customers/signup
+Content-Type: application/json
+
+{
+    "email": "probemos2", 
+    "contraseña": "123456",
+    "isAdmin": false
+}
+
+### LOGUEA UN USUARIO
+
+POST {{host}}/api/flightscanner/customers/signin
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzQ3MjE1OH0.EeeB99hmhP7dfWd9YrJZLat1pK1JTZ_oqgS8dXT97Eo
+
+{
+    "email": "admin@", 
+    "contraseña": "123456",
+    "isAdmin": true
+}
+
+### ACTUALIZA UN USUARIO 
+PUT {{host}}/api/flightscanner/customers/6457eeb72320ab5493c6644a
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhbmllbGluIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTY4MzQ4NDM0M30.225DsSfvi96JLPyarkXbqXMcBE0tjs0bq21AxmTcQKM
+
+{
+    "nombre": "Daniel", 
+    "apellidos": "Funes Fuentes",
+    "numero_pasaporte": "AAAAAAAAAA"
+}
+
+### USUARIO BORRA SU CUENTA
+DELETE {{host}}/api/flightscanner/customers/6457eeb72320ab5493c6644a
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhbmllbGluIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTY4MzQ4NDM0M30.225DsSfvi96JLPyarkXbqXMcBE0tjs0bq21AxmTcQKM
+
+
+### USUARIO ACTUALIZA CONTRASEÑA
+
+PUT {{host}}/api/flightscanner/customers/645806ef27fd3d6adb1b8f39
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByb2JlbW9zMiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODM0OTA1NDN9.yLpjCRf5rAHUw_Aw3TsQyryj81ENkOxE0HeCwAPGGgg
+
+{
+    "contraseña": "23232323"
+}

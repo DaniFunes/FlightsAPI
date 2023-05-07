@@ -11,7 +11,7 @@ const flightSchema = new mongoose.Schema({
     ref: "Airport",
     required: true,
   },
-  fecha_salida: { type: String, required: true },
+  fecha_salida: { type: Date, required: true },
   hora_salida: { type: String, required: true },
   plazas_totales: { type: Number, required: true },
   plazas_disponibles: { type: Number, required: true },

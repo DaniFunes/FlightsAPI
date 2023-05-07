@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
+const { pick } = require("lodash");
 
 const customerSchema = new mongoose.Schema({
   nombre: { type: String },

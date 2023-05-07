@@ -15,8 +15,3 @@ module.exports = function (app) {
   app.use(apiPath, flights);
   app.use(apiPath, airports);
 };
-
-
-// app.get("/ping", (req, res) => {
-//   res.json("pong");
-// });
